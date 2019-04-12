@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<style type="text/css">
+		#wrap{
+			height: 100vh;
+			overflow:scroll;
+		}
+		.nested-row{
+			background-color: #f3f3f3;
+		}
+		.text-box{
+			text-align: center;
+			padding-top: 20px;
+			padding-bottom: 10px;
+		}
+	</style>
+</head>
+
+<body>
+	<!--------Multi lebel menu-------------------------------------------------------------------------->
+	<nav class="navbar bg-info navbar-dark">
+	  <a class="navbar-brand" href="#">Menu</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+	    <ul class="navbar-nav">
+	      <li class="nav-item">
+	        <div class="dropdown">
+			    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="">Dashboard</a>
+			    <div class="dropdown-menu">
+			      <a class="dropdown-item" href="#">My Articles</a>
+			      <a class="dropdown-item" href="#">My Topics</a>
+			      <a class="dropdown-item" href="#">My Fans</a>
+			    </div>
+			  </div>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Account</a>
+	      </li>
+	      <li class="nav-item">
+	        <div class="dropdown">
+			    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="">Profile</a>
+			    <div class="dropdown-menu">
+			      <a class="dropdown-item" href="#">Settings</a>
+			      <a class="dropdown-item" href="#">Education</a>
+			      <a class="dropdown-item" href="#">Professional Experience</a>
+			      <a class="dropdown-item" href="#">Work Experience</a>
+			    </div>
+			  </div>
+	      </li>    
+	    </ul>
+	  </div>  
+	</nav>
+	<!--------Multi lebel menu end here----------------------------------------------------------------->
+	<div id="wrap">
+		<!-------------------svg path---------------------------------------------------------------------->
+		<div class="modal-body row">
+			<div class="col-md-4 d-none d-md-block"> 
+				<svg xmlns="http://www.w3.org/2000/svg"  height="6000" width="1200">
+				   <defs>
+				  		<path id="Path_440" d="M10,20 10,240 80,240 80,460 150,460 150,680 220,680 220,900 290,900 290,1120 360,1120 360,1330"  fill="none" />
+				  	</defs>
+				    <use xlink:href="#Path_440" stroke="#000" stroke-width="2" stroke-dasharray="8"/>
+					<use id="theFill" xlink:href="#Path_440" stroke="red" stroke-width="3"/>
+				</svg>
+			</div>
+			<!-------------------svg path end here---------------------------------------------------------------------->
+			<div class="col-md-8">
+				<!--- image 1 ---------------------------------------------------------------------->
+				<div class="row nested-row">
+					<div class="col-md-4">
+						<a href="http://www.google.com">
+			  				<img class="img-responsive" src="1.png" alt="Chania" width="200" height="200">
+			  			</a>
+			  		</div>
+			  		<div class="col-md-8 text-box">
+			  			HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured 
+			  		</div>
+				</div>
+				<br>
+				<!--- image 2 ---------------------------------------------------------------------->
+				<div class="row nested-row">
+					<div class="col-md-4">
+						<a href="http://www.google.com">
+			  				<img class="img-responsive" src="2.png" alt="Chania" width="200" height="200">
+			  			</a>
+			  		</div>
+			  		<div class="col-md-8 text-box">
+			  			elements are delineated by tags, written using angle brackets. Tags such as directly introduce content into
+			  		</div>
+				</div>
+				<br>
+				<!--- image 3 ---------------------------------------------------------------------->
+				<div class="row nested-row">
+					<div class="col-md-4">
+			  			<a href="http://www.google.com">
+			  				<img class="img-responsive" src="3.png" alt="Chania" width="200" height="200">
+			  			</a>
+			  		</div>
+			  		<div class="col-md-8 text-box">
+			  			<p>an embed programs written in a scripting language such as JavaScript, which affects the behavior and content of web pages. Inclusion of CSS defines the look and layout of content. The World Wide Web Consortium (W3C), maintainer of both the HTML and the CSS standards, has encouraged the use of CSS over explicit presentational HTML since 1997.[5]</p>
+			  		</div>
+				</div>
+				<br>
+				<!--- image 4 ---------------------------------------------------------------------->
+				<div class="row nested-row">
+					<div class="col-md-4">
+			  			<a href="http://www.google.com">
+			  				<img class="img-responsive" src="4.png" alt="Chania" width="200" height="200">
+			  			</a>
+			  		</div>
+			  		<div class="col-md-8 text-box">
+			  			The first publicly available description of HTML was a document called "HTML Tags", first mentioned on the Internet by Tim Berners-Lee in late 1991.[9][10] It describes 18 elements comprising the initial, relatively simple design of HTML. Except for the hyperlink tag, these were strongly influenced by SGMLguid, an in-house Standard Generalized Markup Language (SGML)-based documentation format at CERN. Eleven of these elements still exist in HTML
+			  		</div>
+				</div>
+				<br>
+				<!--- image 5 ---------------------------------------------------------------------->
+				<div class="row nested-row">
+					<div class="col-md-4">
+			  			<a href="http://www.google.com">
+			  				<img class="img-responsive" src="5.png" alt="Chania" width="200" height="200">
+			  			</a>
+			  		</div>
+			  		<div class="col-md-8 text-box">
+			  			d in the early 1960s for the CTSS (Compatible Time-Sharing System) operating system: these formatting commands were derived from the commands used by typesetters to manually format documents. However, the SGML concept of generalized markup is based on elements (nested annotated ranges with attributes) rather than merely print effects, with also the separation of structure and markup; HTML has been progressively moved in this direction with CSS.
+			  		</div>
+				</div>
+				<br>
+				<!--- image 6 ---------------------------------------------------------------------->
+				<div class="row nested-row">
+					<div class="col-md-4">
+			  			<a href="http://www.google.com">
+			  				<img class="img-responsive" src="1.png" alt="Chania" width="200" height="200">
+			  			</a>
+			  		</div>
+			  		<div class="col-md-8 text-box">
+			  			Berners-Lee considered HTML to be an application of SGML. It was formally defined as such by the Internet Engineering Task Force (IETF) with the mid-1993 publication of the first proposal for an HTML specification, the "Hypertext Markup Language (HTML)" Internet Draft by Berners-Lee and Dan Connolly, which included an SGML
+			  		</div>
+				</div>
+				<!--- image 6 end ---------------------------------------------------------------------->
+	  		</div>
+	  	</div>
+	</div>
+
+	<script type="text/javascript">
+		let l = Path_440.getTotalLength();
+		let dasharray = l;
+		let dashoffset = l;
+		theFill.setAttributeNS(null, "stroke-dasharray", l);
+		theFill.setAttributeNS(null, "stroke-dashoffset", l);
+		wrap.addEventListener("scroll", function(){
+		  dashoffset = l - this.scrollTop * l*6 / (this.scrollHeight - this.clientHeight);
+		  theFill.setAttributeNS(null, "stroke-dashoffset", dashoffset);
+	});
+	</script>
+</body>
+</html>
